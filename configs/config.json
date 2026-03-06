@@ -27,7 +27,7 @@
   "target_domains": {
     // Arxiv分类代码列表。完整列表：https://arxiv.org/category_taxonomy
     "domains": [
-      "quant-ph"
+      "cs.CL", "cs.AI","cs.LG"
     ]
   },
   // 关键词配置 - 主要和次要关键词及其权重
@@ -35,7 +35,7 @@
     // 主要关键词 - 手动指定，相同的高权重
     "primary_keywords": {
       "weight": 1.0, // 所有主要关键词使用相同权重
-      "keywords": [],
+      "keywords": ["Computation and Language", "Artificial Intelligence","Machine Learning"]
     },
     // 是否从 reference_pdfs 目录提取次要关键词
     "enable_reference_extraction": true,
@@ -59,7 +59,7 @@
         }
       }
     },
-    "research_context": ""
+    "research_context": "我的研究方向是人工智能AGI，大模型语言和Agent应用"
   },
   // 评分设置 - 控制论文评分逻辑
   "scoring_settings": {
